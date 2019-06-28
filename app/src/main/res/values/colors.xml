@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B4F72</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="mainAppBarBackground">#9B6E8E</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGreen">#45C96F</color>
+    <color name="lt_recentUpdatesBackground">#B1FAF9</color>
+</resources>

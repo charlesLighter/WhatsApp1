@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/app_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/layout_main_page_tool_bar"/>
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_main_page_tool_bar"
+        android:background="@color/mainAppBarBackground"
+        android:id="@+id/lt_tabLayout"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+    </android.support.design.widget.TabLayout>
+
+    
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/lt_tabLayout"
+        android:id="@+id/view_pager_id">
+
+
+    </android.support.v4.view.ViewPager>
+
+
+
+    <include layout="@layout/content_main" />
+
+
+
+
+
+
+
+  <!--  <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:layout_below="@id/layout_topbuttons_id"
+        android:layout_alignParentTop="false"
+        android:layout_alignTop="@id/lt_chatsActivity_id"
+
+         android:layout_marginTop="70"
+         /> -->
+    
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
